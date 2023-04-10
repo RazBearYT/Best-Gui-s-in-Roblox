@@ -149,7 +149,7 @@ wait(5)
                 Event:FireServer(A_1, A_2)
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
                 
-                elseif game.PlaceId == (6839171747) then
+                elseif game.PlaceId == (10549820578) then
 wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Doors Script";
