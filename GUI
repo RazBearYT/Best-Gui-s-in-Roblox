@@ -106,5 +106,5 @@ wait(5)
                 Event:FireServer(A_1, A_2)
 
 
-loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua"))()
 end
