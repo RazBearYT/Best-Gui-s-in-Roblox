@@ -121,4 +121,17 @@ wait(5)
                 Event:FireServer(A_1, A_2)
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/old.lua"))()
+elseif game.PlaceId == (8737602449) then
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Inf Yield";
+Text = "Agachi's Cheepy Clothes";
+Duration = 4;
+})
+wait(5)
+                local A_1 = "Loading In Inf Yield because RazBearEX didnt make a gui for this game yet. sorry :("
+                local A_2 = "All"
+                local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+                Event:FireServer(A_1, A_2)
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end
