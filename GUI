@@ -78,4 +78,34 @@ wait(5)
                 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
                 Event:FireServer(A_1, A_2)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
+elseif game.PlaceId == (606849621) then
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "jailBreak Script";
+Text = "jailBreak";
+Duration = 4;
+})
+wait(5)
+                local A_1 = "Loading In JailBreak" 
+                local A_2 = "All"
+                local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+                Event:FireServer(A_1, A_2)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JazzyScripts/jazzy/main/xeno"))()
+
+elseif game.PlaceId == (606849621) then
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Blox Fruits Script";
+Text = "Blox Fruits";
+Duration = 4;
+})
+wait(5)
+                local A_1 = "Loading In Blox Fruits" 
+                local A_2 = "All"
+                local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+                Event:FireServer(A_1, A_2)
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ArceusXHub/atomic-hub/main/atomic-hub.lua"))()
 end
