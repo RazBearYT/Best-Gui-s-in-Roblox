@@ -1,5 +1,8 @@
 repeat task.wait() until game:IsLoaded() and game.Players.LocalPlayer.Character
-
+local A_1 = "Best GUIS ON ROBLOX"
+	local A_2 = "All"
+	local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+	Event:FireServer(A_1, A_2)
 if game.PlaceId == (536102540) then
 	wait(1.2)
 	game.StarterGui:SetCore("SendNotification", {
