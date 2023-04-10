@@ -121,7 +121,7 @@ wait(5)
                 Event:FireServer(A_1, A_2)
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/old.lua"))()
-elseif game.PlaceId == (8737602449) then
+elseif game.PlaceId == (13045932289) then
 wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Inf Yield";
