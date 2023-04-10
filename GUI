@@ -1,0 +1,61 @@
+
+wait(2)
+
+
+                local A_1 = "RAZBEAREX Best GUIS For Any game!"
+                local A_2 = "All"
+                local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+                Event:FireServer(A_1, A_2)
+
+if game.PlaceId == (536102540) then
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Unknown Hub";
+Text = "DBZFS Earth";
+Duration = 4;
+})
+wait(5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
+
+  
+elseif game.PlaceId == (882399924) then
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Unknown Hub";
+Text = "DBZFS Namek";
+Duration = 4;
+})
+wait(5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
+
+elseif game.PlaceId == (478132461) then
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Unknown Hub";
+Text = "DBZFS Space";
+Duration = 4;
+})
+wait(5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
+elseif game.PlaceId == (569994010) then
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Unknown Hub";
+Text = "DBZFS Future";
+Duration = 4;
+})
+wait(5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
+
+
+
+elseif game.PlaceId == (2046990924) then
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Unknown Hub";
+Text = "DBZFS Secret World";
+Duration = 4;
+})
+wait(5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
+end
