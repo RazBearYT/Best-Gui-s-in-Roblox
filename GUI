@@ -15,6 +15,10 @@ Text = "DBZFS Earth";
 Duration = 4;
 })
 wait(5)
+                local A_1 = "Loading In Unknown Hub Earth"
+                local A_2 = "All"
+                local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+                Event:FireServer(A_1, A_2)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 
   
@@ -26,6 +30,10 @@ Text = "DBZFS Namek";
 Duration = 4;
 })
 wait(5)
+                local A_1 = "Loading In Unknown Hub Namek"
+                local A_2 = "All"
+                local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+                Event:FireServer(A_1, A_2)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 
 elseif game.PlaceId == (478132461) then
@@ -36,6 +44,10 @@ Text = "DBZFS Space";
 Duration = 4;
 })
 wait(5)
+                local A_1 = "Loading In Unknown Hub Space"
+                local A_2 = "All"
+                local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+                Event:FireServer(A_1, A_2)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 elseif game.PlaceId == (569994010) then
 wait(1.2)
@@ -45,6 +57,10 @@ Text = "DBZFS Future";
 Duration = 4;
 })
 wait(5)
+                local A_1 = "Loading In Unknown Hub Future"
+                local A_2 = "All"
+                local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+                Event:FireServer(A_1, A_2)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 
 
@@ -57,5 +73,9 @@ Text = "DBZFS Secret World";
 Duration = 4;
 })
 wait(5)
+                local A_1 = "Loading In Unknown Hub Secret World" 
+                local A_2 = "All"
+                local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+                Event:FireServer(A_1, A_2)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 end
