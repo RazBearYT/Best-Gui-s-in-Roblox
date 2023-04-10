@@ -134,4 +134,62 @@ wait(5)
                 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
                 Event:FireServer(A_1, A_2)
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+               
+elseif game.PlaceId == (4924922222) then
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Brookhaven RP Script";
+Text = "BrookHaven";
+Duration = 4;
+})
+wait(5)
+                local A_1 = "Loading In Brookhaven GUI"
+                local A_2 = "All"
+                local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+                Event:FireServer(A_1, A_2)
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+                
+                elseif game.PlaceId == (6516141723) then
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Doors Script";
+Text = "Doors";
+Duration = 4;
+})
+wait(5)
+                local A_1 = "Loading In Doors GUI"
+                local A_2 = "All"
+                local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+                Event:FireServer(A_1, A_2)
+                loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua"),true))()
+                
+                elseif game.PlaceId == (6284583030) then
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "PSX Script";
+Text = "Pet Simulator X";
+Duration = 4;
+})
+wait(5)
+                local A_1 = "Loading In PSX GUI"
+                local A_2 = "All"
+                local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+                Event:FireServer(A_1, A_2)
+                loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a82cd5447cbbc4c7be0e8db405555787.lua"))()
+                
+                
+                elseif game.PlaceId == (6284583030) then
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Rainbow Friends Script";
+Text = "Rainbow Friends";
+Duration = 4;
+})
+wait(5)
+                local A_1 = "Loading In RB friends GUI"
+                local A_2 = "All"
+                local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+                Event:FireServer(A_1, A_2)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/BorkWare/main/Scripts/' .. game.GameId .. ".lua"))(' Watermelon ? ')
+                
 end
