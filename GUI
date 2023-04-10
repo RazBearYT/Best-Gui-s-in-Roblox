@@ -1,8 +1,7 @@
+
+
 repeat task.wait() until game:IsLoaded() and game.Players.LocalPlayer.Character
-local A_1 = "Best GUIS ON ROBLOX"
-	local A_2 = "All"
-	local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-	Event:FireServer(A_1, A_2)
+game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "BEST ROBLOX GUIS" , Enum.ChatColor.White)
 if game.PlaceId == (536102540) then
 	wait(1.2)
 	game.StarterGui:SetCore("SendNotification", {
@@ -26,10 +25,7 @@ elseif game.PlaceId == (882399924) then
 		Duration = 4;
 	})
 	wait(5)
-	local A_1 = "Loading In Unknown Hub Namek"
-	local A_2 = "All"
-	local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-	Event:FireServer(A_1, A_2)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading In Unknown Hub Namek" , Enum.ChatColor.White)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 
 elseif game.PlaceId == (478132461) then
@@ -40,10 +36,7 @@ elseif game.PlaceId == (478132461) then
 		Duration = 4;
 	})
 	wait(5)
-	local A_1 = "Loading In Unknown Hub Space"
-	local A_2 = "All"
-	local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-	Event:FireServer(A_1, A_2)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Unknown Hub Space" , Enum.ChatColor.White)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 elseif game.PlaceId == (569994010) then
 	wait(1.2)
@@ -53,10 +46,7 @@ elseif game.PlaceId == (569994010) then
 		Duration = 4;
 	})
 	wait(5)
-	local A_1 = "Loading In Unknown Hub Future"
-	local A_2 = "All"
-	local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-	Event:FireServer(A_1, A_2)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Unknown Hub Future" , Enum.ChatColor.White)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 
 
@@ -69,10 +59,7 @@ elseif game.PlaceId == (2046990924) then
 		Duration = 4;
 	})
 	wait(5)
-	local A_1 = "Loading In Unknown Hub Secret World"
-	local A_2 = "All"
-	local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-	Event:FireServer(A_1, A_2)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Unknown Hub Secret World" , Enum.ChatColor.White)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 elseif game.PlaceId == (606849621) then
 	wait(1.2)
@@ -82,10 +69,7 @@ elseif game.PlaceId == (606849621) then
 		Duration = 4;
 	})
 	wait(5)
-	local A_1 = "Loading In JailBreak"
-	local A_2 = "All"
-	local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-	Event:FireServer(A_1, A_2)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in JailBreak GUI" , Enum.ChatColor.White)
 	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d4b0843f800d5dcac07568e18190b7e.lua"))()
 elseif game.PlaceId == (2753915549) then
 	wait(1.2)
@@ -95,10 +79,7 @@ elseif game.PlaceId == (2753915549) then
 		Duration = 4;
 	})
 	wait(5)
-	local A_1 = "Loading In Blox Fruits"
-	local A_2 = "All"
-	local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-	Event:FireServer(A_1, A_2)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Blox Fruits GUI" , Enum.ChatColor.White)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua"))()
 elseif game.PlaceId == (8737602449) then
 	wait(1.2)
@@ -108,10 +89,7 @@ elseif game.PlaceId == (8737602449) then
 		Duration = 4;
 	})
 	wait(5)
-	local A_1 = "Loading In Pls Donate GUI"
-	local A_2 = "All"
-	local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-	Event:FireServer(A_1, A_2)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Pls Donate GUI" , Enum.ChatColor.White)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/old.lua"))()
 elseif game.PlaceId == (13045932289) then
 	wait(1.2)
@@ -121,10 +99,7 @@ elseif game.PlaceId == (13045932289) then
 		Duration = 4;
 	})
 	wait(5)
-	local A_1 = "Loading In Inf Yield because RazBearEX didnt make a gui for this game yet. sorry :("
-	local A_2 = "All"
-	local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-	Event:FireServer(A_1, A_2)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in INF YIELD BECAUSE THIS GAME ISNT POPULAR >:(" , Enum.ChatColor.White)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
                
 elseif game.PlaceId == (4924922222) then
@@ -135,10 +110,7 @@ elseif game.PlaceId == (4924922222) then
 		Duration = 4;
 	})
 	wait(5)
-	local A_1 = "Loading In Brookhaven GUI"
-	local A_2 = "All"
-	local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-	Event:FireServer(A_1, A_2)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in brookhaven GUI" , Enum.ChatColor.White)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
 elseif game.PlaceId == (6839171747) then
 	game.StarterGui:SetCore("SendNotification", {
@@ -146,6 +118,8 @@ elseif game.PlaceId == (6839171747) then
 		Text = "Doors";
 		Duration = 4;
 	})
+	wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Doors GUI" , Enum.ChatColor.White)
 	loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua"), true))()
 elseif game.PlaceId == (6284583030) then
 	wait(1.2)
@@ -155,10 +129,7 @@ elseif game.PlaceId == (6284583030) then
 		Duration = 4;
 	})
 	wait(5)
-	local A_1 = "Loading In PSX GUI"
-	local A_2 = "All"
-	local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-	Event:FireServer(A_1, A_2)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in PSX GUI" , Enum.ChatColor.White)
 	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a82cd5447cbbc4c7be0e8db405555787.lua"))()
 elseif game.PlaceId == (7991339063) then
 	wait(1.2)
@@ -168,9 +139,6 @@ elseif game.PlaceId == (7991339063) then
 		Duration = 4;
 	})
 	wait(5)
-	local A_1 = "Loading In RB friends GUI"
-	local A_2 = "All"
-	local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-	Event:FireServer(A_1, A_2)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in RB Friends GUI" , Enum.ChatColor.White)
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/BorkWare/main/Scripts/' .. game.GameId .. ".lua"))(' Watermelon ? ')
 end
