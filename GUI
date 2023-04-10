@@ -110,8 +110,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/xDepressionx/Free-Scr
 elseif game.PlaceId == (2753915549) then
 wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
-Title = "Blox Fruits Script";
-Text = "Blox Fruits";
+Title = "Pls Donate Script";
+Text = "Pls Donate";
 Duration = 4;
 })
 wait(5)
