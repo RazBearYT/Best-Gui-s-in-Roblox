@@ -174,3 +174,14 @@ elseif game.PlaceId == (7991339063) then
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in RB Friends GUI" , Enum.ChatColor.White)
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/BorkWare/main/Scripts/' .. game.GameId .. ".lua"))(' Watermelon ? ')
 end
+elseif game.PlaceId == (7991339063) then
+	wait(1.2)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "CC2 Script";
+		Text = "Car Crushers 2";
+		Duration = 4;
+	})
+	wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in CC2 GUI" , Enum.ChatColor.White)
+	https://raw.githubusercontent.com/1201for/littlegui/main/BloxingBurging/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/Sex
+end
