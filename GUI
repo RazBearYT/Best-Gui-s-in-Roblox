@@ -18,8 +18,8 @@ frame.BackgroundTransparency = 0.5
 local textLabel = Instance.new("TextLabel")
 textLabel.Parent = frame
 textLabel.Text = "Credits to the makers of the scripts."
-textLabel.Size = UDim2.new(1, 0, 1, 0)
-textLabel.Position = UDim2.new(0, 0, 0, 0)
+textLabel.Size = UDim2.new(0.75, 0, 1, 0)
+textLabel.Position = UDim2.new(0.25, 0, 0, 0)
 textLabel.TextColor3 = Color3.new(1, 1, 1)
 textLabel.BackgroundTransparency = 1
 textLabel.Font = Enum.Font.SourceSans
@@ -35,6 +35,7 @@ local tweenText = game:GetService("TweenService"):Create(textLabel, TweenInfo.ne
 wait(1)
 tweenFrame:Play()
 tweenText:Play()
+
 
 
 
