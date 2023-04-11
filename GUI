@@ -5,23 +5,32 @@ repeat task.wait() until game:IsLoaded() and game.Players.LocalPlayer.Character
 local gui = Instance.new("ScreenGui")
 gui.Parent = game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")
 
+-- Create a Frame object and set its properties
+local frame = Instance.new("Frame")
+frame.Parent = gui
+frame.Size = UDim2.new(0, 200, 0, 50)
+frame.Position = UDim2.new(0.5, -100, 0.5, -25)
+frame.BackgroundColor3 = Color3.new(0, 0, 0)
+frame.BackgroundTransparency = 0.5
+
 -- Create a TextLabel object and set its properties
 local textLabel = Instance.new("TextLabel")
-textLabel.Parent = gui
+textLabel.Parent = frame
 textLabel.Text = "Credits to the makers of the scripts."
-textLabel.Size = UDim2.new(0, 200, 0, 50)
-textLabel.Position = UDim2.new(0.5, -100, 0.5, -25)
+textLabel.Size = UDim2.new(1, 0, 1, 0)
+textLabel.Position = UDim2.new(0, 0, 0, 0)
 textLabel.TextColor3 = Color3.new(1, 1, 1)
 textLabel.BackgroundTransparency = 1
 textLabel.Font = Enum.Font.SourceSans
 textLabel.TextSize = 20
 
--- Create a Tween object to fade out the TextLabel over 5 seconds
-local tween = game:GetService("TweenService"):Create(textLabel, TweenInfo.new(5), {TextTransparency = 1})
+-- Create a Tween object to fade out the Frame over 5 seconds
+local tween = game:GetService("TweenService"):Create(frame, TweenInfo.new(5), {BackgroundTransparency = 1})
 
 -- Start the Tween animation after a 1 second delay
 wait(1)
 tween:Play()
+
 
 game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "BEST ROBLOX GUIS" , Enum.ChatColor.White)
 if game.PlaceId == (536102540) then
