@@ -27,7 +27,6 @@ local tweenText = game:GetService("TweenService"):Create(textLabel, TweenInfo.ne
 wait(1)
 tweenFrame:Play()
 tweenText:Play()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/Extras/Anti-Cheat"))()
 game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "BEST ROBLOX GUIS" , Enum.ChatColor.White)
 if game.PlaceId == (536102540) then
 	wait(1.2)
@@ -37,18 +36,23 @@ if game.PlaceId == (536102540) then
 		Duration = 4;
 	})
 	wait(5)
-	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading In Unknown Hub Earth" , Enum.ChatColor.White)
+	local A_1 = "Loading In Unknown Hub Earth"
+	local A_2 = "All"
+	local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+	Event:FireServer(A_1, A_2)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading In Unknown Hub Namek" , Enum.ChatColor.White)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
+
+
 elseif game.PlaceId == (882399924) then
-	wait(1.2)
-	game.StarterGui:SetCore("SendNotification", {
-		Title = "Unknown Hub";
-		Text = "DBZFS Namek";
-		Duration = 4;
+@@ -66,7 +63,7 @@ elseif game.PlaceId == (882399924) then
 	})
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading In Unknown Hub Namek" , Enum.ChatColor.White)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
+
 elseif game.PlaceId == (478132461) then
 	wait(1.2)
 	game.StarterGui:SetCore("SendNotification", {
@@ -58,6 +62,7 @@ elseif game.PlaceId == (478132461) then
 	})
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Unknown Hub Space" , Enum.ChatColor.White)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 elseif game.PlaceId == (569994010) then
 	wait(1.2)
@@ -68,7 +73,11 @@ elseif game.PlaceId == (569994010) then
 	})
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Unknown Hub Future" , Enum.ChatColor.White)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
+
+
+
 elseif game.PlaceId == (2046990924) then
 	wait(1.2)
 	game.StarterGui:SetCore("SendNotification", {
@@ -78,6 +87,7 @@ elseif game.PlaceId == (2046990924) then
 	})
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Unknown Hub Secret World" , Enum.ChatColor.White)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 elseif game.PlaceId == (606849621) then
 	wait(1.2)
@@ -169,15 +179,4 @@ elseif game.PlaceId == (7991339063) then
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in RB Friends GUI" , Enum.ChatColor.White)
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/BorkWare/main/Scripts/' .. game.GameId .. ".lua"))(' Watermelon ? ')
-end
-elseif game.PlaceId == (7991339063) then
-	wait(1.2)
-	game.StarterGui:SetCore("SendNotification", {
-		Title = "CC2 Script";
-		Text = "Car Crushers 2";
-		Duration = 4;
-	})
-	wait(5)
-	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in CC2 GUI" , Enum.ChatColor.White)
-	https://raw.githubusercontent.com/1201for/littlegui/main/BloxingBurging/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/Sex
 end
