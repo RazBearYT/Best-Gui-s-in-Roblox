@@ -161,7 +161,7 @@ elseif game.PlaceId == (6839171747) then
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Doors GUI" , Enum.ChatColor.White)
 	loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua"), true))()
-elseif game.PlaceId == (6284583030) or (10321372166) then
+elseif game.PlaceId == (6284583030) then
 	wait(1.2)
 	game.StarterGui:SetCore("SendNotification", {
 		Title = "PSX Script";
@@ -170,6 +170,16 @@ elseif game.PlaceId == (6284583030) or (10321372166) then
 	})
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in PSX GUI" , Enum.ChatColor.White)
+	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b89cf8bb11cb9c7e8f01216b1eb00792.lua"))()
+	elseif game.PlaceId == (10321372166) then
+	wait(1.2)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "PSX HC Script";
+		Text = "Pet Simulator X Hardcore";
+		Duration = 4;
+	})
+	wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in PSX HC GUI" , Enum.ChatColor.White)
 	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b89cf8bb11cb9c7e8f01216b1eb00792.lua"))()
 elseif game.PlaceId == (7991339063) then
 	wait(1.2)
