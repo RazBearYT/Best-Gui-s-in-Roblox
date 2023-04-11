@@ -27,7 +27,6 @@ local tweenText = game:GetService("TweenService"):Create(textLabel, TweenInfo.ne
 wait(1)
 tweenFrame:Play()
 tweenText:Play()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/Extras/Anti-Cheat"))()
 game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "BEST ROBLOX GUIS" , Enum.ChatColor.White)
 if game.PlaceId == (536102540) then
 	wait(1.2)
