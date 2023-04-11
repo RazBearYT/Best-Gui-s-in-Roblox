@@ -27,6 +27,7 @@ local tweenText = game:GetService("TweenService"):Create(textLabel, TweenInfo.ne
 wait(1)
 tweenFrame:Play()
 tweenText:Play()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/Extras/Anti-Cheat"))()
 game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "BEST ROBLOX GUIS" , Enum.ChatColor.White)
 if game.PlaceId == (536102540) then
 	wait(1.2)
@@ -38,8 +39,6 @@ if game.PlaceId == (536102540) then
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading In Unknown Hub Earth" , Enum.ChatColor.White)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
-
-
 elseif game.PlaceId == (882399924) then
 	wait(1.2)
 	game.StarterGui:SetCore("SendNotification", {
@@ -50,7 +49,6 @@ elseif game.PlaceId == (882399924) then
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading In Unknown Hub Namek" , Enum.ChatColor.White)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
-
 elseif game.PlaceId == (478132461) then
 	wait(1.2)
 	game.StarterGui:SetCore("SendNotification", {
@@ -71,8 +69,6 @@ elseif game.PlaceId == (569994010) then
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Unknown Hub Future" , Enum.ChatColor.White)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
-
-
 elseif game.PlaceId == (2046990924) then
 	wait(1.2)
 	game.StarterGui:SetCore("SendNotification", {
@@ -143,7 +139,6 @@ elseif game.PlaceId == (6839171747) then
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Doors GUI" , Enum.ChatColor.White)
 	loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua"), true))()
-	
 elseif game.PlaceId == (6284583030) then
 	wait(1.2)
 	game.StarterGui:SetCore("SendNotification", {
@@ -174,6 +169,7 @@ elseif game.PlaceId == (7991339063) then
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in RB Friends GUI" , Enum.ChatColor.White)
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/BorkWare/main/Scripts/' .. game.GameId .. ".lua"))(' Watermelon ? ')
+end
 elseif game.PlaceId == (7991339063) then
 	wait(1.2)
 	game.StarterGui:SetCore("SendNotification", {
@@ -183,89 +179,5 @@ elseif game.PlaceId == (7991339063) then
 	})
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in CC2 GUI" , Enum.ChatColor.White)
-	-- services
-local players = game:GetService("Players")
-local rs = game:GetService("ReplicatedStorage")
-local runs = game:GetService("RunService")
-
--- variables
-local lp = players.LocalPlayer
-local vehicleInfo = rs:WaitForChild("VehicleInformation")
-local carCollection = workspace.CarCollection
-local rfSpawnVehicle = rs:WaitForChild("rF").SpawnVehicle
-local lavaPart = workspace.Crushers["Volcano Pit"].Scripted.Lava
-local sp = workspace.Lobby.SpawnPoints.Spawn1
-local guiScript = getsenv(lp.PlayerGui:WaitForChild("GUIs"))
-local openFunc = guiScript["OpenDealership"]
-local spawnFunc = guiScript["SpawnButton"]
-
--- functions
-local function getCurrentCar()
-   local car = carCollection:FindFirstChild(lp.Name)
-   if not car then return nil end
-   
-   local model = car:FindFirstChild("Car")
-   if not model then return nil end
-
-   local isNotBroken =
-       model:FindFirstChild("Wheels"):FindFirstChildOfClass("Part") and
-       model:FindFirstChild("Body"):FindFirstChild("Engine"):FindFirstChildOfClass("MeshPart")
-
-   return isNotBroken and model or nil
-end
-
-local function getCharacter()
-   return lp.Character or lp.CHaracterAdded:Wait()
-end
-
-local function getMoney()
-   return lp.Money.Value
-end
-
-local function canSpawn()
-   return lp.SpawnTimer.Value <= 0
-end
-
-local function spawnBestCar()
-   openFunc()
-   spawnFunc(true, Enum.UserInputState.Begin)
-end
-
-local function destroyCar()
-   local hum = getCharacter():FindFirstChildOfClass("Humanoid")
-   local hrp = getCharacter():FindFirstChild("HumanoidRootPart")
-
-   if not hum or not hrp then return end
-
-   local car = getCurrentCar()
-
-   repeat task.wait() until car.PrimaryPart ~= nil
-
-   -- Death to the car!!!
-   repeat task.wait()
-       car = getCurrentCar()
-       if not car then return end
-
-       car.PrimaryPart.Velocity = Vector3.new(0, 250, 0)
-       car.PrimaryPart.CFrame *= CFrame.Angles(180, 0, 0)
-
-       task.wait(.25)
-
-       car.PrimaryPart.Velocity = Vector3.new(0, -250, 0)
-       car.PrimaryPart.CFrame *= CFrame.Angles(180, 0, 0)
-
-       task.wait(.25)
-   until not car
-end
-
--- main
-while task.wait() do
-   local character = getCharacter()
-
-   if not character then return end
-
-   if canSpawn() then
-       spawnBestCar()
-       destroyCar()
-   end
+	https://raw.githubusercontent.com/1201for/littlegui/main/BloxingBurging/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/Sex
 end
