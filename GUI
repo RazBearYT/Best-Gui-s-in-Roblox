@@ -14,12 +14,20 @@ frame.Position = UDim2.new(0.1, 0, 0.1, 0) -- Position the frame 10% from the to
 frame.BackgroundColor3 = Color3.new(0, 0, 0)
 frame.BackgroundTransparency = 0.5
 
+-- Create an ImageLabel object for your logo and set its properties
+local logo = Instance.new("ImageLabel")
+logo.Parent = frame
+logo.Size = UDim2.new(0.25, 0, 0.25, 0) -- Change the size to 25% of the screen width and height
+logo.Position = UDim2.new(0, 0, 0.5, 0) -- Position the logo to the middle left of the screen
+logo.AnchorPoint = Vector2.new(0, 0.5) -- Set the anchor point to the left side of the logo
+logo.Image = "rbxassetid://13081660780>"
+
 -- Create a TextLabel object and set its properties
 local textLabel = Instance.new("TextLabel")
 textLabel.Parent = frame
-textLabel.Text = "Credits to the makers of the scripts. I AM NOT RESPONSIBLE IF YOU GET BANNED"
-textLabel.Size = UDim2.new(1, 0, 1, 0)
-textLabel.Position = UDim2.new(0, 0, 0, 0)
+textLabel.Text = "Credits to the makers of the scripts."
+textLabel.Size = UDim2.new(0.75, 0, 1, 0)
+textLabel.Position = UDim2.new(0.25, 0, 0, 0)
 textLabel.TextColor3 = Color3.new(1, 1, 1)
 textLabel.BackgroundTransparency = 1
 textLabel.Font = Enum.Font.SourceSans
@@ -35,6 +43,7 @@ local tweenText = game:GetService("TweenService"):Create(textLabel, TweenInfo.ne
 wait(1)
 tweenFrame:Play()
 tweenText:Play()
+
 
 
 
