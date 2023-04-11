@@ -8,8 +8,8 @@ gui.Parent = game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")
 -- Create a Frame object and set its properties
 local frame = Instance.new("Frame")
 frame.Parent = gui
-frame.Size = UDim2.new(0, 400, 0, 100) -- Change the size to 400x100
-frame.Position = UDim2.new(0.5, -200, 0.5, -50) -- Center the frame
+frame.Size = UDim2.new(0.8, 0, 0.8, 0) -- Change the size to 80% of the screen width and height
+frame.Position = UDim2.new(0.1, 0, 0.1, 0) -- Position the frame 10% from the top and left of the screen
 frame.BackgroundColor3 = Color3.new(0, 0, 0)
 frame.BackgroundTransparency = 0.5
 
@@ -22,14 +22,20 @@ textLabel.Position = UDim2.new(0, 0, 0, 0)
 textLabel.TextColor3 = Color3.new(1, 1, 1)
 textLabel.BackgroundTransparency = 1
 textLabel.Font = Enum.Font.SourceSans
-textLabel.TextSize = 24 -- Increase the font size for better visibility
+textLabel.TextSize = 24
 
 -- Create a Tween object to fade out the Frame over 5 seconds
-local tween = game:GetService("TweenService"):Create(frame, TweenInfo.new(5), {BackgroundTransparency = 1})
+local tweenFrame = game:GetService("TweenService"):Create(frame, TweenInfo.new(5), {BackgroundTransparency = 1})
 
--- Start the Tween animation after a 1 second delay
+-- Create a Tween object to fade out the TextLabel over 5 seconds
+local tweenText = game:GetService("TweenService"):Create(textLabel, TweenInfo.new(5), {TextTransparency = 1})
+
+-- Start the Tween animations after a 1 second delay
 wait(1)
-tween:Play()
+tweenFrame:Play()
+tweenText:Play()
+
+
 
 
 
