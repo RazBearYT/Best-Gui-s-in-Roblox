@@ -20,7 +20,7 @@ logo.Parent = frame
 logo.Size = UDim2.new(0.25, 0, 0.25, 0) -- Change the size to 25% of the screen width and height
 logo.Position = UDim2.new(0, 0, 0.5, 0) -- Position the logo to the middle left of the screen
 logo.AnchorPoint = Vector2.new(0, 0.5) -- Set the anchor point to the left side of the logo
-logo.Image = "rbxassetid://13081660780>"
+logo.Image = "http://www.roblox.com/asset/?id=<13081660780>"
 
 -- Create a TextLabel object and set its properties
 local textLabel = Instance.new("TextLabel")
@@ -39,10 +39,15 @@ local tweenFrame = game:GetService("TweenService"):Create(frame, TweenInfo.new(5
 -- Create a Tween object to fade out the TextLabel over 5 seconds
 local tweenText = game:GetService("TweenService"):Create(textLabel, TweenInfo.new(5), {TextTransparency = 1})
 
+-- Create a Tween object to fade out the Logo over 5 seconds
+local tweenLogo = game:GetService("TweenService"):Create(logo, TweenInfo.new(5), {ImageTransparency = 1})
+
 -- Start the Tween animations after a 1 second delay
 wait(1)
 tweenFrame:Play()
 tweenText:Play()
+tweenLogo:Play()
+
 
 
 
