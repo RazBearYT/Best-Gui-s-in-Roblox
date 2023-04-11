@@ -50,7 +50,7 @@ if game.PlaceId == (536102540) then
 		Duration = 4;
 	})
 	wait(5)
-	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading In Unknown Hub Namek" , Enum.ChatColor.White)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading In Unknown Hub Earth" , Enum.ChatColor.White)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 
   
