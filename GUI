@@ -1,3 +1,4 @@
+-- 10321372166  hc teleporter
 
 
 repeat task.wait() until game:IsLoaded() and game.Players.LocalPlayer.Character
@@ -16,7 +17,7 @@ frame.BackgroundTransparency = 0.5
 -- Create a TextLabel object and set its properties
 local textLabel = Instance.new("TextLabel")
 textLabel.Parent = frame
-textLabel.Text = "Credits to the makers of the scripts."
+textLabel.Text = "Credits to the makers of the scripts. I AM NOT RESPONSIBLE IF YOU GET BANNED"
 textLabel.Size = UDim2.new(1, 0, 1, 0)
 textLabel.Position = UDim2.new(0, 0, 0, 0)
 textLabel.TextColor3 = Color3.new(1, 1, 1)
@@ -160,7 +161,7 @@ elseif game.PlaceId == (6839171747) then
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Doors GUI" , Enum.ChatColor.White)
 	loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua"), true))()
-elseif game.PlaceId == (6284583030) then
+elseif game.PlaceId == (6284583030) or (10321372166) then
 	wait(1.2)
 	game.StarterGui:SetCore("SendNotification", {
 		Title = "PSX Script";
