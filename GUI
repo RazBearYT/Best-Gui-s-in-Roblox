@@ -144,9 +144,6 @@ elseif game.PlaceId == (6839171747) then
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Doors GUI" , Enum.ChatColor.White)
 	loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua"), true))()
-	elseif game.PlaceId == (6516141723) then
-	wait(5)
-	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "You Have to be in a round" , Enum.ChatColor.White)
 	
 elseif game.PlaceId == (6284583030) then
 	wait(1.2)
@@ -178,7 +175,6 @@ elseif game.PlaceId == (7991339063) then
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in RB Friends GUI" , Enum.ChatColor.White)
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/BorkWare/main/Scripts/' .. game.GameId .. ".lua"))(' Watermelon ? ')
-end
 elseif game.PlaceId == (7991339063) then
 	wait(1.2)
 	game.StarterGui:SetCore("SendNotification", {
@@ -273,5 +269,4 @@ while task.wait() do
        spawnBestCar()
        destroyCar()
    end
-end
 end
