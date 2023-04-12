@@ -189,4 +189,15 @@ elseif game.PlaceId == (7991339063) then
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Bee Swarm Simulator GUI" , Enum.ChatColor.White)
 	loadstring(game:HttpGet('https://s.kometa.ga/kometa.lua'))()
+	
+	elseif game.PlaceId == (2673595672) then
+	wait(1.2)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Dashing Simulator Simulator Script";
+		Text = "Dashing Simulator";
+		Duration = 4;
+	})
+	wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Dashing Simulator GUI" , Enum.ChatColor.White)
+	https://raw.githubusercontent.com/RazBearYT/Dash-sim/main/Script%20Dashing?token=GHSAT0AAAAAACBHFZA267O6OJTWYPFK3UZSZBWY7RA
 end
