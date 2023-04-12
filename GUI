@@ -179,4 +179,14 @@ elseif game.PlaceId == (7991339063) then
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in RB Friends GUI" , Enum.ChatColor.White)
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/BorkWare/main/Scripts/' .. game.GameId .. ".lua"))(' Watermelon ? ')
+	elsif game.PlaceId == (1537690962) then
+	wait(1.2)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Bee Swarm Simulator Script";
+		Text = "Bee Swarm";
+		Duration = 4;
+	})
+	wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Bee Swarm Simulator GUI" , Enum.ChatColor.White)
+	loadstring(game:HttpGet('https://s.kometa.ga/kometa.lua'))()
 end
