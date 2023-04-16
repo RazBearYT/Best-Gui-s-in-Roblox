@@ -50,7 +50,6 @@ elseif game.PlaceId == (882399924) then
 	})
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading In Unknown Hub Namek" , Enum.ChatColor.White)
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 
 elseif game.PlaceId == (478132461) then
@@ -62,7 +61,6 @@ elseif game.PlaceId == (478132461) then
 	})
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Unknown Hub Space" , Enum.ChatColor.White)
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 elseif game.PlaceId == (569994010) then
 	wait(1.2)
@@ -73,7 +71,6 @@ elseif game.PlaceId == (569994010) then
 	})
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Unknown Hub Future" , Enum.ChatColor.White)
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 
 
@@ -87,7 +84,6 @@ elseif game.PlaceId == (2046990924) then
 	})
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Unknown Hub Secret World" , Enum.ChatColor.White)
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/My-Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/Roblox-Scripts/main/Unknown%20Hub%20Main/Unknown%20Hub%20Core.lua"))()
 elseif game.PlaceId == (606849621) then
 	wait(1.2)
