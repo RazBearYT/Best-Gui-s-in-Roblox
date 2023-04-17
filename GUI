@@ -195,5 +195,5 @@ elseif game.PlaceId == (7991339063) then
 	})
 	wait(5)
 	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Dashing Simulator GUI" , Enum.ChatColor.White)
-	https://raw.githubusercontent.com/RazBearYT/Dash-sim/main/Script%20Dashing?token=GHSAT0AAAAAACBHFZA267O6OJTWYPFK3UZSZBWY7RA
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/RazBearYT/Dash-sim/main/Script%20Dashing?token=GHSAT0AAAAAACBHFZA267O6OJTWYPFK3UZSZBWY7RA'))()
 end
